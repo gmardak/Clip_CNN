@@ -4,7 +4,7 @@ import cv2
 
 # Function to capture a single image from the webcam
 def capture_image_from_webcam_single():
-    cap = cv2.VideoCapture(2)  # Change to 0 if it is your laptop's camera
+    cap = cv2.VideoCapture(0)  # Change to 0 if it is your laptop's camera
     if not cap.isOpened():
         print("Cannot open camera")
         exit()
