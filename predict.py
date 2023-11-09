@@ -12,7 +12,7 @@ output_signal = 12
 input_signal = 16
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(output_signal, GPIO.OUT)
-GPIO.setup(input_signal, GPIO.IN)
+GPIO.setup(input_signal, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
 
 def set_low():
