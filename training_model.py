@@ -7,7 +7,6 @@ from tensorflow import keras
 import tensorflow as tf
 from PIL import Image, ImageOps  # Install pillow instead of PIL
 import cv2
-from matplotlib import pyplot as plt
 
 class VGG_CLIPS:
 

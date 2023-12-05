@@ -3,11 +3,9 @@ import numpy as np
 import cv2
 import load_model as lm
 import capture_frame as cf
-#from gpiozero import Button
 import RPi.GPIO as GPIO
 from time import sleep
 
-#input_signal = Button(16)
 output_signal = 12
 input_signal = 16
 GPIO.setmode(GPIO.BCM)
