@@ -12,7 +12,7 @@ class VGG_CLIPS:
 
     def __init__(self):
         self.model = None
-        self.batch_size = 32
+        self.batch_size = 8
         self.train_dataset = None
 
     def load_data(self):
