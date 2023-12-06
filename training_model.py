@@ -7,12 +7,13 @@ from tensorflow import keras
 import tensorflow as tf
 from PIL import Image, ImageOps  # Install pillow instead of PIL
 import cv2
+from matplotlib import pyplot as plt
 
 class VGG_CLIPS:
 
     def __init__(self):
         self.model = None
-        self.batch_size = 8
+        self.batch_size = 32
         self.train_dataset = None
 
     def load_data(self):
